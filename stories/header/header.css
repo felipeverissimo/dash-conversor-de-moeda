@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 15px 20px;
+  display: flex;
+  width: 100%;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+
+.wrapper > div:nth-child(2) {
+  margin-left: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.hour {
+  margin: 0px;
+  margin-left: 84px;
+  color: gray;
+  font-size: 1.5em;
+}
+.hour ~ p {
+  margin-top: 0px;
+  margin-left: 84px;
+}
+
+p {
+  color: #bbb;
+  font-size: 14px;
+}
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
