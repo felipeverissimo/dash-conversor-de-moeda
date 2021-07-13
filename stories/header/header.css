@@ -1,6 +1,7 @@
 .wrapper {
   padding: 15px 20px;
   display: flex;
+  justify-content: flex-start;
   width: 100%;
   /* align-items: center;
   justify-content: space-between; */

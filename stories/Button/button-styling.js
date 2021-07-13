@@ -48,7 +48,7 @@ export const WrapperButton = styled.button`
   }
 
   &.secondary:disabled{
-    background-color:black;
+    background-color:#aaa;
   }  
 ` 
 
@@ -69,6 +69,7 @@ export const AsciiIcon = styled.span`
       padding-right:16px;
       color:black;
       font-weight: 700;
-
     }
+
+    
 `
