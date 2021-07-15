@@ -106,6 +106,15 @@ export const InputTitle = styled.h3`
         transform: translate3d(0, 0, 0);
     }
 
+    &::after{
+      position: absolute;
+      opacity: 0.7;
+      content:' *';
+      margin-left:4px;
+      color: #00AB63;
+      box-sizing: border-box;
+    }
+
     
 `
 
