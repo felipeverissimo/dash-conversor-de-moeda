@@ -1,97 +1,81 @@
 # DASH - CONVERSOR DE MOEDAS
 
-# Tabela de conteúdos/Table of contents
+## Sobre/About
 
-<!--ts-->
+Este é um teste para o cargo de Front End executado por Felipe Verissimo para a empresa Stone
 
-- [Sobre/About](#Sobre/About)
-- [Instalação/Install](#Instalacao/Install)
-- [Como-usar/How-to-use](#Como-usar/How-to-use)
-- [Tecnologias/Stack](#Tecnologias/Stack)
-<!--te-->
+Para este processo eu iniciei criando um pequeno fluxo sobre o processo através do miro (https://miro.com/) para concretizar meu pensamento de como as coisas funcionam.
 
-# Sobre/About
+Após esse passo eu criei os componentes no StoryBookJs que caso voce instale localmente o projeto pode ser conferido executando o comando.
 
-    Este é um teste para o cargo de Front End executado por Felipe Verissimo para a empresa Stone
+```
+ yarn storybook
+```
 
-    Para este processo eu iniciei criando um pequeno fluxo sobre o processo através do miro (https://miro.com/) para concretizar meu pensamento de como as coisas funcionam.
+Quando tudo estava pronto no Storybook passei ao desenvolvimento em React/Next e gerei o deploy automático utilizando a Vercel.
 
-    Após esse passo eu criei os componentes no StoryBookJs que caso voce instale localmente o projeto  pode ser conferido executando o comando.
+---
 
-    ```
-    yarn storybook
+This is a test for the Front End position conducted by Felipe Verissimo for Stone Company
 
-    ```
+For this process I am begin creating a small UML about the process, to building my this aplication in my mind.
 
-    Quando tudo estava pronto no Storybook passei ao desenvolvimento em React/Next e gerei o deploy automático utilizando a Vercel.
+In the next step I am created all components in StorybookJS if you install in localhost the project it is possible to run a command in terminal.
 
-    -------------------------------------------------------------------------------------------------
+```
+ yarn storybook
+```
 
-    This is a test for the Front End position conducted by Felipe Verissimo for Stone Company
+When everything was ready in StorybookJs i am went to the development in React/next and run a Ci in Vercel.
 
-    For this process I am begin creating a small UML about the process, to building my this aplication in my mind.
+## Instalacao/Install
 
-    In the next step I am created all components in StorybookJS if you install in localhost the project it is possible to run a command in terminal.
+Para instalar esse projeto localmente voce pode rodar os seguintes passos:
 
-    ```
-    yarn storybook
+---
 
-    ```
-    When everything was ready in StorybookJs i am went to the development in React/next and run a Ci in Vercel.
+To install this project in our localhost you need following this steps
 
-# Instalacao/Install
+```
+git clone : https://github.com/felipeverissimo/dash-conversor-de-moeda.git
+```
 
-    Para instalar esse projeto localmente voce pode rodar os seguintes passos:
+```
+yarn install
+```
 
-    -------------------------------------------------------------------------------------------------
+```
+cd dash-conversor-de-moeda
+```
 
-    To install this project in our localhost  you need following this steps
+```
+yarn dev
+```
 
-    ```
-    git clone : https://github.com/felipeverissimo/dash-conversor-de-moeda.git
+Este aplicativo deve rodar em http://localhost:3000
 
-    ```
+This aplication must run on http://localhost:3000
 
-    ```
-     yarn install
-    ```
+## Como-usar/How-to-use
 
-    ```
-    cd dash-conversor-de-moeda
-    ```
-
-    ```
-    yarn dev
-    ```
-
-    Este aplicativo deve rodar em http://localhost:3000
-    -------------------------------------------------------------------------------------------------
-    This aplication must run on http://localhost:3000
-
-# Como-usar/How-to-use
-
-    Para conferir o resultado do voce pode acessar o link no final dessa sessao da aplicacao deployada na Vercel.
-    Ou instalar o projeto em seu localhost e conferir o resultado.
-
-    --------------------------------------------------------------------------------------------------
+Para conferir o resultado do voce pode acessar o link no final dessa sessao da aplicacao deployada na Vercel.
+Ou instalar o projeto em seu localhost e conferir o resultado.
 
 To check the result you can access the links in the end of this section of the aplication at Vercel
 
-    link: https://dash-conversor-de-moeda.vercel.app/
+[Vercel Dash](https://dash-conversor-de-moeda.vercel.app/)
 
-# Tecnologias/Stack
+## Tecnologias/Stack
 
-    Este teste utiliza as tecnologias a seguir
+Este teste utiliza as tecnologias a seguir
 
-    --------------------------------------------------------------------------------------------------
+---
 
-    This test uses
+This test uses
 
-    ```
-    * React
-    * NextJs
-    * Styled-Componets
-    * Css
-    * StorybookJs
-    * Vercel - to deploy
-    ```
+- React
+- NextJs
+- Styled-Componets
+- Css
+- StorybookJs
+- Vercel - to deploy
