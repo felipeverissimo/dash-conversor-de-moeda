@@ -54,7 +54,8 @@ export const Page = ({actualDate,
 
       <div className='collum'>
       
-        <Radio 
+        <Radio value={valorform.purchaseType}
+              customOptions={['Dinheiro','Cartão']}
               customName='purchaseType'
               handleOnClick={handleInputChange}
         />
