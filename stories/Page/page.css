@@ -1,0 +1,12 @@
+.collum {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.collum > div {
+  margin-right: 24px;
+}
+
+.collum:nth-child(2) {
+  margin-bottom: 36px;
+}
