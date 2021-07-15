@@ -15,7 +15,8 @@ export const Input = ( {showPrefix,
     customName,
     error,
     value,
-    onChange}) => { 
+    onChange,
+    onBlur,onKeyPress}) => { 
     return (
        <>
         <div>
@@ -28,8 +29,11 @@ export const Input = ( {showPrefix,
                         placeholder={customPlaceholder}
                         value={value}
                         onChange={onChange}
+                        onBlur={onBlur}
+                        onKeyPress={onKeyPress}
+                        maxLength="10"
                         ></input>
-                    {showSuffix ? <span >{suffix}</span>:'' }
+                    {showSuffix ? <span className={value? 'input-get-value': ''}>{suffix}</span>:'' }
                 </WrapperInput> 
         </div>
        </>

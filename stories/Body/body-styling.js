@@ -1,19 +1,17 @@
 import styled from 'styled-components'
-import dollarBils  from '../assets/dolar-bills.png'
 
-
-export const ConversionBody = styled.body`
-  background-image: url(${dollarBils});  
+export const ConversionBody = styled.div`
+  background: url(dolarbills.png) no-repeat ;
   position: absolute;
   width: 1400px;
-  height: 1031.54px;
+  height: 1000px;
+  min-height:100vh;
   left: -1px;
   top: -7.54px;
   box-shadow: 0px -20px 40px rgba(0, 0, 0, 0.08);
   display:flex;
   align-items: center;
   padding-left:44px;
-
 
   & > .container{
     width:70vw;

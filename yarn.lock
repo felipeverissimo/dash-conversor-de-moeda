@@ -3190,7 +3190,7 @@ babel-plugin-react-docgen@^4.2.1:
     lodash "^4.17.15"
     react-docgen "^5.0.0"
 
-"babel-plugin-styled-components@>= 1.12.0":
+"babel-plugin-styled-components@>= 1.12.0", babel-plugin-styled-components@^1.13.2:
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.13.2.tgz#ebe0e6deff51d7f93fceda1819e9b96aeb88278d"
   integrity sha512-Vb1R3d4g+MUfPQPVDMCGjm3cDocJEUTR7Xq7QS95JWWeksN1wdFRYpD2kulDgI3Huuaf1CZd+NK4KQmqUFh5dA==
@@ -7407,6 +7407,14 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
+next-images@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.8.1.tgz#adea0c46a2e837cb49b6f95b478500a7ed4eea4f"
+  integrity sha512-/DoXucQKWkEBT2rCQKtm9bb+KTAnd1vVTLO12lX4oxdiBQa2uqn5vhcMPwKsdJlxNBzwg6EVnddFs3aqcwiiGA==
+  dependencies:
+    file-loader "^6.2.0"
+    url-loader "^4.1.0"
+
 next@11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/next/-/next-11.0.1.tgz#b8e3914d153aaf7143cb98c09bcd3c8230eeb17a"
@@ -10271,7 +10279,7 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-url-loader@^4.1.1:
+url-loader@^4.1.0, url-loader@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-4.1.1.tgz#28505e905cae158cf07c92ca622d7f237e70a4e2"
   integrity sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==

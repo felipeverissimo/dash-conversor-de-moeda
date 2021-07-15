@@ -4,22 +4,15 @@ import { Logo } from '../Logo/Logo';
 import { Spotlight } from '../Spotlight/Spotlight';
 import { Subtitle } from '../Subtitle/Subtitle';
 
-import './header.css';
-
-
-export const Header = ({}) => (
+export const Header = ({spotlight}) => (
 
   <header>
     <div className="wrapper">
         <Logo  subTitle="Currency" />
       <div>
-          <Spotlight doubleSpot={false} firstSpotlight={'SpotLight'} />
+          <Spotlight firstSpotlight={spotlight} />
           <Subtitle  />
       </div>
     </div>
   </header>
 );
-
-Header.propTypes = {};
-
-Header.defaultProps = {};
