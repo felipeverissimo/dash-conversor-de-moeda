@@ -1,34 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DASH - CONVERSOR DE MOEDAS
 
-## Getting Started
+# Tabela de conteúdos/Table of contents
 
-First, run the development server:
+<!--ts-->
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Sobre/About](#Sobre/About)
+- [Instalação/Install](#Instalacao/Install)
+- [Como-usar/How-to-use](#Como-usar/How-to-use)
+- [Tecnologias/Stack](#Tecnologias/Stack)
+<!--te-->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Sobre/About
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    Este é um teste para o cargo de Front End executado por Felipe Verissimo para a empresa Stone
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    Para este processo eu iniciei criando um pequeno fluxo sobre o processo através do miro (https://miro.com/) para concretizar meu pensamento de como as coisas funcionam.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    Após esse passo eu criei os componentes no StoryBookJs que caso voce instale localmente o projeto  pode ser conferido executando o comando.
 
-## Learn More
+    ```
+    yarn storybook
 
-To learn more about Next.js, take a look at the following resources:
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Quando tudo estava pronto no Storybook passei ao desenvolvimento em React/Next e gerei o deploy automático utilizando a Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    -------------------------------------------------------------------------------------------------
 
-## Deploy on Vercel
+    This is a test for the Front End position conducted by Felipe Verissimo for Stone Company
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    For this process I am begin creating a small UML about the process, to building my this aplication in my mind.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    In the next step I am created all components in StorybookJS if you install in localhost the project it is possible to run a command in terminal.
+
+    ```
+    yarn storybook
+
+    ```
+    When everything was ready in StorybookJs i am went to the development in React/next and run a Ci in Vercel.
+
+# Instalacao/Install
+
+    Para instalar esse projeto localmente voce pode rodar os seguintes passos:
+
+    -------------------------------------------------------------------------------------------------
+
+    To install this project in our localhost  you need following this steps
+
+    ```
+    git clone : https://github.com/felipeverissimo/dash-conversor-de-moeda.git
+
+    ```
+
+    ```
+     yarn install
+    ```
+
+    ```
+    cd dash-conversor-de-moeda
+    ```
+
+    ```
+    yarn dev
+    ```
+
+    Este aplicativo deve rodar em http://localhost:3000
+    -------------------------------------------------------------------------------------------------
+    This aplication must run on http://localhost:3000
+
+# Como-usar/How-to-use
+
+    Para conferir o resultado do voce pode acessar o link no final dessa sessao da aplicacao deployada na Vercel.
+    Ou instalar o projeto em seu localhost e conferir o resultado.
+
+    --------------------------------------------------------------------------------------------------
+
+To check the result you can access the links in the end of this section of the aplication at Vercel
+
+    link: https://dash-conversor-de-moeda.vercel.app/
+
+# Tecnologias/Stack
+
+    Este teste utiliza as tecnologias a seguir
+
+    --------------------------------------------------------------------------------------------------
+
+    This test uses
+
+    ```
+    * React
+    * NextJs
+    * Styled-Componets
+    * Css
+    * StorybookJs
+    * Vercel - to deploy
+    ```
