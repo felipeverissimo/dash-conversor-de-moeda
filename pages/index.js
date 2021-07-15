@@ -11,7 +11,19 @@ export default function Home() {
 
   // Global State 
   let [ conversao, setConversao ] = useState()
-  let [ valorform, setValorForm ] = useState({ dolarValue:null, dolarValueNoTax:null, dolarValueWithTax:null,  realValue:null, realValueNoTax:null, realValueWithTax:null, taxValue:null, purchaseType:'Dinheiro', iofAboutpurchaseType:null, disabledButton:true, result:false, priceUSD:null})
+  let [ valorform, setValorForm ] = useState({ 
+    dolarValue:'0',
+    dolarValueNoTax:null,
+    dolarValueWithTax:null,
+    realValue:null, 
+    realValueNoTax:null,
+    realValueWithTax:null,
+    taxValue:'0',
+    purchaseType:'Dinheiro',
+    iofAboutpurchaseType:null,
+    disabledButton:true,
+    result:false,
+    priceUSD:null})
 
   const handleInputChange = (e) =>{
     const {name, value} = e.target
@@ -73,11 +85,25 @@ export default function Home() {
     let ano = data.getFullYear();
     let monthsName = new Array ("janeiro", "fevereiro", "março", "abril", "Maio", "junho", "agosto", "outubro", "novembro", "dezembro")
     let dataatual = dia + ' ' +  'de' +  ' ' + monthsName [data.getMonth() - 1 ] + ' ' + ano;
-    return dataatual  + '     |     ' +  data.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+    return dataatual  + '     |     ' +  data.toLocaleTimeString('pt-BT')
   }
 
     const handleConvertion = (e) => {
       const {name, value} = e.target
+
+        // Comprando com dinheiro: [(Valor do produto em dólar) + (imposto do estado aonde esta comprando)] x (valor do dólar + IOF da compra de dólar)
+        // Exemplo: (USD$ 149,00 + 8,87%) * (R$ 4,15 + 1,10%)
+        // console.log(valorform.purchaseType)
+        // console.log(parseFloat(valorform.dolarValue), 'valor do dolar')
+        // console.log(parseFloat(valorform.taxValue), 'valor da taxa')
+        // console.log((parseFloat(valorform.dolarValue) + (parseFloat(valorform.taxValue) * parseFloat(valorform.dolarValue) / 100 )),  'soma da primeira conta')
+
+        // console.log(parseFloat(conversao.high), 'Doleta')
+        // console.log(valorform.purchaseType === 'Dinheiro'? 1.10 : 6.38, 'iof da compra')
+        // console.log((valorform.purchaseType === 'Dinheiro'? 1.10 : 6.38) * parseFloat(conversao.high) /100, 'porcentagem da moeda 1.1')
+        // console.log((parseFloat(conversao.high) + ((valorform.purchaseType === 'Dinheiro'? 1.1 :6.38) * parseFloat(conversao.high) /100)), 'soma da  segunda conta')
+
+        //  console.log(((parseFloat(valorform.dolarValue) + (parseFloat(valorform.taxValue) * parseFloat(valorform.dolarValue) 
 
       setValorForm({  
          ...valorform,  
